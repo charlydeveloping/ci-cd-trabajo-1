@@ -1,0 +1,73 @@
+# =========================
+# Node.js / Express
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build / Transpile
+# =========================
+dist/
+build/
+.tmp/
+.cache/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Coverage / Tests
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Runtime data
+# =========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Sequelize / Prisma
+# =========================
+migrations/*.log
+prisma/dev.db
+prisma/*.db
+prisma/*.db-journal
+
+# =========================
+# Docker
+# =========================
+docker-data/
+docker-volumes/
+.env.docker
+
+# =========================
+# Misc
+# =========================
+*.tgz
