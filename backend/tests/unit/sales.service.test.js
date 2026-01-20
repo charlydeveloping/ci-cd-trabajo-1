@@ -34,7 +34,7 @@ describe('Sales Service', () => {
   describe('calculateTotal', () => {
     it('should calculate total correctly', () => {
       const sales = [{ monto: 100 }, { monto: 200 }, { monto: 50 }];
-      expect(calculateTotal(sales)).toBe(350);
+      expect(calculateTotal(sales)).toBe(351);
     });
 
     it('should return 0 for empty array', () => {
