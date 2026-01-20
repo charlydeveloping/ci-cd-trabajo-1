@@ -12,3 +12,4 @@ app.use('/api/health', healthRoutes);
 app.use('/api/sales', salesRoutes);
 
 module.exports = app;
+
